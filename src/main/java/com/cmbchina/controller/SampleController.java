@@ -1,16 +1,15 @@
-package com.cmbchina;
+package com.cmbchina.controller;
 
+import com.cmbchina.domain.Greeting;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * Created with IntelliJ IDEA.
- * com.cmbchina.User: ZhongYu Rong
+ * com.cmbchina.domain.User: ZhongYu Rong
  * Date: 2017/11/18
  * Time: 21:38
  */
@@ -19,7 +18,7 @@ public class SampleController {
     private static Logger log = LogManager.getLogger(SampleController.class);
 
 
-    /*@RequestMapping("/login")
+    @RequestMapping("/login")
     @ResponseBody
     public String home() {
         log.info("Hello world");
@@ -51,6 +50,6 @@ public class SampleController {
     @ResponseBody
     public Greeting greeting1(@PathVariable(value="name") String name) {
         return new Greeting(counter.incrementAndGet(), String.format(template, name));
-    }*/
+    }
 
 }

@@ -1,6 +1,6 @@
-package com.cmbchina;
+package com.cmbchina.config;
 
-import org.springframework.context.annotation.Configuration;
+import com.cmbchina.util.MyInterceptor;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
@@ -11,7 +11,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
  * Time: 20:16
  */
 
-@Configuration
+//@Configuration
 public class MyWebAppConfigurer extends WebMvcConfigurerAdapter {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {

@@ -1,5 +1,6 @@
-package com.cmbchina;
+package com.cmbchina.controller;
 
+import com.cmbchina.service.CommonService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Created with IntelliJ IDEA.
- * com.cmbchina.User: ZhongYu Rong
+ * com.cmbchina.domain.User: ZhongYu Rong
  * Date: 2018/10/31
  * Time: 22:33
  */

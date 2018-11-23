@@ -5,7 +5,9 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 import javax.sql.DataSource;
 
@@ -17,6 +19,8 @@ import javax.sql.DataSource;
  */
 @MapperScan("com.cmbchina")
 @SpringBootApplication
+//@EnableScheduling
+//@EnableCaching
 public class App {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(App.class, args);
