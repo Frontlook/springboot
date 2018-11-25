@@ -18,7 +18,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 /**
  * Created with IntelliJ IDEA.
- * User: ZhongYu Rong
+ * Users: ZhongYu Rong
  * Date: 2018/11/15
  * Time: 20:42
  */

@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicLong;
 
 /**
  * Created with IntelliJ IDEA.
- * com.cmbchina.domain.User: ZhongYu Rong
+ * com.cmbchina.domain.Users: ZhongYu Rong
  * Date: 2017/11/18
  * Time: 21:38
  */

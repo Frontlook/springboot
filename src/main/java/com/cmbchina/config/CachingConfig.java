@@ -2,7 +2,7 @@ package com.cmbchina.config;
 
 /**
  * Created with IntelliJ IDEA.
- * User: ZhongYu Rong
+ * Users: ZhongYu Rong
  * Date: 2018/11/18
  * Time: 14:14
  */

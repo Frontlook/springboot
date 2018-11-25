@@ -2,7 +2,7 @@ package com.cmbchina.domain;
 
 /**
  * Created with IntelliJ IDEA.
- * com.cmbchina.domain.User: ZhongYu Rong
+ * com.cmbchina.domain.Users: ZhongYu Rong
  * Date: 2017/11/22
  * Time: 13:48
  */

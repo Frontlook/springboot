@@ -11,7 +11,7 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Created with IntelliJ IDEA.
- * com.cmbchina.domain.User: ZhongYu Rong
+ * com.cmbchina.domain.Users: ZhongYu Rong
  * Date: 2018/10/31
  * Time: 22:33
  */
