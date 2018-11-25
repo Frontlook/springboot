@@ -9,7 +9,7 @@ import org.springframework.cache.annotation.Cacheable;
 
 /**
  * Created with IntelliJ IDEA.
- * com.cmbchina.entry.User: ZhongYu Rong
+ * com.cmbchina.domain.User: ZhongYu Rong
  * Date: 2018/10/31
  * Time: 22:25
  */

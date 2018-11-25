@@ -1,8 +1,8 @@
-package com.cmbchina.entry;
+package com.cmbchina.domain;
 
 /**
  * Created with IntelliJ IDEA.
- * com.cmbchina.entry.User: ZhongYu Rong
+ * com.cmbchina.domain.User: ZhongYu Rong
  * Date: 2017/11/22
  * Time: 13:48
  */
