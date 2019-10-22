@@ -13,14 +13,14 @@ import javax.sql.DataSource;
 
 /**
  * Created with IntelliJ IDEA.
- * Users: ZhongYu Rong
+ * @author ZhongYu Rong
  * Date: 2018/10/31
  * Time: 22:47
  */
 @MapperScan("com.cmbchina")
 @SpringBootApplication
-//@EnableScheduling
-//@EnableCaching
+@EnableScheduling
+@EnableCaching
 public class App {
     public static void main(String[] args) throws Exception {
         SpringApplication.run(App.class, args);

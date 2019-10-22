@@ -18,7 +18,7 @@ public class RedisService {
     private StringRedisTemplate stringRedisTemplate;
 
     @Autowired  // RedisTemplate，可以进行所有的操作
-    private RedisTemplate<Object,Object> redisTemplate;
+    private RedisTemplate<String,Object> redisTemplate;
 
     public void set(String key, String value){
         stringRedisTemplate.opsForValue().set(key, value);

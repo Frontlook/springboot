@@ -49,6 +49,7 @@ public class RedisConfig extends CachingConfigurerSupport {
 //            }
 //        };
 //    }
+
     //缓存管理器
     @Bean
     public CacheManager cacheManager(@SuppressWarnings("rawtypes") RedisTemplate redisTemplate) {
@@ -57,6 +58,7 @@ public class RedisConfig extends CachingConfigurerSupport {
         cacheManager.setDefaultExpiration(10000);
         return cacheManager;
     }
+
     @Bean
     @SuppressWarnings("all")
     public RedisTemplate<String, Object> redisTemplate(RedisConnectionFactory factory) {
@@ -80,8 +82,8 @@ public class RedisConfig extends CachingConfigurerSupport {
         return template;
     }
 
-    private void setSerializer(StringRedisTemplate template){
-        @SuppressWarnings({ "rawtypes", "unchecked" })
+    private void setSerializer(StringRedisTemplate template) {
+        @SuppressWarnings({"rawtypes", "unchecked"})
         Jackson2JsonRedisSerializer jackson2JsonRedisSerializer = new Jackson2JsonRedisSerializer(Object.class);
         ObjectMapper om = new ObjectMapper();
         om.setVisibility(PropertyAccessor.ALL, JsonAutoDetect.Visibility.ANY);
